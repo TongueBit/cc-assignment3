@@ -23,7 +23,7 @@ public class UserService {
 		int loginAttempts = 5;
 		Scanner scanner = new Scanner(System.in);
 
-		while (loginAttempts >= 0) {
+		while (loginAttempts > 0) {
 			System.out.println("Enter your email:");
 			String email = scanner.nextLine();
 			System.out.println("Enter your password:");
